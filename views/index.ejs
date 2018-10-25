@@ -1,0 +1,276 @@
+<% include ./partials/header %>
+
+<!--LOADING LOGO AREA---------------------------------------------------------------------------->
+    <div class='loader'>
+      <div class='inner'>
+        
+      </div>
+    </div>
+
+
+<!--SLIDES AREA---------------------------------------------------------------------------->
+
+    <div id="slides">
+        <div class='overlay'></div>
+          <div class="slides-container">
+            <img src="../images/slide1.jpg" alt="pussy">
+            <img src="../images/slide2.jpeg" alt="mountain">
+            <img src="../images/slide3.jpg" alt="mountain">
+          </div>
+          
+          <div class='title_message'>
+              <div class='heading'>
+                  <p class='main'>Manea Catalin Dev</p>
+                  <p class='sub typed'></p>
+              </div>
+          </div>
+          
+          <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+          </nav>
+    </div>
+    
+<!--NAVIGATION AREA----------------------------------------------------------------------->
+    <nav id='navigation' class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">MCD</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stats">Stats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+<!--ABOUT AREA---------------------------------------------------------------------------->
+
+    <div id='about' class='section'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-5'>
+            <img id='topm' class='aboutImage' src='images/portret.jpg'>  
+          </div>
+          <div class='col-md-7'>
+            <h4>Manea Catalin DEV</h4>
+            <p>Hello friends! My name is Manea Catalin, and I'm from Ianca, Romania. Since a few years back i started enjoying coding while studying Math and Computer Science in Highschool. I love creating web sites for myself and my future clients, to expand my knowleadge and area of expertise. I have experience programming in JavaScript, Node.js, Express, Mongoose, jQuery, Bootstrap, HTML and CSS.</p>  
+            <p>I dont't have a fancy education like many other web developers. I am a self taught developer, and improving my skills every day fuels my passion.</p>  
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<!--SKILLS SECTION---------------------------------------------------------------------------->
+    <div id='skills' class='skillsSection section'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-12 text-center'>
+            <h2>WHAT I'VE LEARNED SO FAR...</h2>
+            <p id='margbot'>The level of my skills in each domain. But I'm improving.</p>
+          </div> 
+          <div class="owl-carousel owl-theme">
+            <div class='skill'>
+              <span class='chart' data-percent='60'>
+                <span class='percent'>60</span>
+                <canvas height='152' width='152'></canvas>
+              </span>
+                <h4>Node.js</h4>
+                <p>The very base of my projects.</p>
+            </div>
+            
+            <div class='skill'>
+              <span class='chart' data-percent='40'>
+                <span class='percent'>40</span>
+                <canvas height='152' width='152'></canvas>
+              </span>
+                <h4>JavaScript</h4>
+                <p>Used in almost all of my web based projects.</p>
+            </div>
+            
+            <div class='skill'>
+              <span class='chart' data-percent='67'>
+                <span class='percent'>67</span>
+                <canvas height='152' width='152'></canvas>
+              </span>
+                <h4>Express</h4>
+                <p>The soul of my aplications.</p>
+            </div>
+            
+            <div class='skill'>
+              <span class='chart' data-percent='47'>
+                <span class='percent'>47</span>
+                <canvas height='152' width='152'></canvas>
+              </span>
+                <h4>Mongoose</h4>
+                <p>My main database system of choice.</p>
+            </div>
+            <div class='skill'>
+              <span class='chart' data-percent='55'>
+                <span class='percent'>55</span>
+                <canvas height='152' width='152'></canvas>
+              </span>
+                <h4>HTML 5</h4>
+                <p>Used in all of my aplications</p>
+            </div>
+            <div class='skill'>
+              <span class='chart' data-percent='39'>
+                <span class='percent'>39</span>
+                <canvas height='152' width='152'></canvas>
+              </span>
+                <h4>CSS</h4>
+                <p>All things must be beautiful.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<!--STATS SECTION---------------------------------------------------------------------------->
+  <div id='stats' class='statsSection section'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-3 col-sm-6'>
+          <div class='squareItem'>
+            <div class='squareInnerContainer'>
+              
+              <div class='squareIcon'>
+                <i class='far fa-clock'></i>  
+              </div>
+              
+              <div class='squareContent'>
+                <h2 class='counter'>1</h2>
+                <h3>Years Experience</h3>
+              </div>
+              
+            </div>
+          </div>  
+        </div>
+        
+        <div class='col-md-3 col-sm-6'>
+          <div class='squareItem'>
+            <div class='squareInnerContainer'>
+              
+              <div class='squareIcon'>
+                <i class='fa fa-users'></i>  
+              </div>
+              
+              <div class='squareContent'>
+                <h2 class='counter'>0</h2>
+                <h3>Clients</h3>
+              </div>
+              
+            </div>
+          </div>  
+        </div>
+        
+        <div class='col-md-3 col-sm-6'>
+          <div class='squareItem'>
+            <div class='squareInnerContainer'>
+              
+              <div class='squareIcon'>
+                <i class='fab fa-internet-explorer'></i>  
+              </div>
+              
+              <div class='squareContent'>
+                <h2 class='counter'>0</h2>
+                <h3>Websites Made</h3>
+              </div>
+              
+            </div>
+          </div>  
+        </div>
+        
+        <div class='col-md-3 col-sm-6'>
+          <div class='squareItem'>
+            <div class='squareInnerContainer'>
+              
+              <div class='squareIcon'>
+                <i class='fab fa-app-store'></i>  
+              </div>
+              
+              <div class='squareContent'>
+                <h2 class='counter'>0</h2>
+                <h3>Apps Made</h3>
+              </div>
+              
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!--CONTACT SECTION-->
+<div id='contact' class='contactSection section'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-12 text-center'>
+        <p class='subHeading'>Like what you see?</p>
+        <h2>I'd like to hear from you!</h2>
+        <a href='mailTo:maneac4@gmail.com' class='contactButton'>Contact Me</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--PORTFOLIO SECTION---------------------------------------------------------------------------->
+<div id='portfolio' class='section'>
+  <div class='container'>
+    <div class='row'>
+      <div class='heading'>
+        <h2>PORTFOLIO</h2>   
+      </div>  
+      <div class='filter'>
+        <ul id='filters'>
+          <li><a href='#' data-filter='*' class='current'>All</a></li>
+          <li><a href='#' data-filter='.apps' >Apps</a></li>
+          <li><a href='#' data-filter='.websites' >Websites</a></li>
+        </ul>
+      </div>
+      
+      <div class='itemsContainer'>
+        <ul class='items'>
+          
+          <li class='apps col-xs-6 col-sm-4 col-md-3 col-lg-3'>
+            <div class='item'>
+              <img src='../images/portfolio/thumbnails/bulb.jpeg'>
+              <div class='icons'>
+                <a href='../images/portfolio/pexels-photo-247772.jpeg' title='View image' class='openButton' data-fancybox data-caption='Blog model'>
+                  <i class='fa fa-search'></i>
+                </a>
+                <a href='' title='Go to project' target='_blank' class='projectLink'>
+                  <i class='fa fa-link'></i>
+                </a>
+              </div>
+              <div class='imageOverlay'></div>
+            </div>  
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>  
+</div>
+
+<div class='copyright'>
+  <div class='col-md-12 text-center'>
+    <p>&copy; Copyright Manea Catalin 2018</p>
+  </div>
+</div>
+
+<% include ./partials/footer %>
