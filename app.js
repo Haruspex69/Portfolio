@@ -15,5 +15,5 @@ app.listen(process.env.PORT, process.env.IP, function(){
 });
 
 setInterval(function(){
-   http.get('www://quiet-temple-14854.herokuapp.com'); 
+   http.get('http://quiet-temple-14854.herokuapp.com'); 
 }, 300000);
